@@ -1,12 +1,12 @@
-name: tensorflow-env
+name: mnist-env
 channels:
   - conda-forge
 dependencies:
   - python=3.8
   - pip
   - pip:
-    - pandas
-    - tensorflow
+    - tensorflow==1.15.2
     - pillow
+    - pandas
     - azureml-core
     - azureml-dataset-runtime[fuse]

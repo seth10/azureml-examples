@@ -1,12 +1,13 @@
-name: tensorflow-env
+name: huggingface-env
 channels:
   - conda-forge
 dependencies:
   - python=3.8
   - pip
   - pip:
-    - pandas
     - tensorflow
-    - pillow
+    - keras==2.9
+    - transformers
+    - datasets
     - azureml-core
     - azureml-dataset-runtime[fuse]

@@ -1,0 +1,4 @@
+$schema: https://azuremlschemas.azureedge.net/latest/batchEndpoint.schema.json
+name: text-summarization-batch
+description: A text summarization endpoint for text.
+auth_mode: aad_token
