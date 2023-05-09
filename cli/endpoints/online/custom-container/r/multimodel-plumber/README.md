@@ -1,9 +1,7 @@
 ---
 page_type: sample
-languages:
-- azurecli
-products:
-- azure-machine-learning
+languages: azurecli
+products: azure-machine-learning
 description: Learn how to deploy an R model as an Azure Machine Learning managed online endpoint
 ---
 
